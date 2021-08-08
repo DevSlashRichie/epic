@@ -1,0 +1,30 @@
+
+
+.marketplace {
+
+  .wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+
+    .section-header {
+      text-align: left;
+      color: #fff;
+      padding: 45px 0;
+    }
+
+  }
+
+  .container {
+    margin: 0 auto;
+    display: grid;
+
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+
+    grid-gap: 25px;
+
+    & > div {
+    }
+  }
+}
+

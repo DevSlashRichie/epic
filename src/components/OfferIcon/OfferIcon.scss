@@ -1,0 +1,74 @@
+
+
+.offerIcon {
+  color: white;
+  text-align: left;
+  background-color: #101022;
+  border: 5px solid #06061a;
+
+  border-radius: 15px;
+
+  .header {
+
+    padding: 10px;
+
+    .image {
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+
+    .user-details {
+      margin-top: 20px;
+
+      .name {
+        font-weight: bold;
+      }
+
+      .title {
+        font-size: 25px;
+      }
+
+      .description {
+        font-size: 13px;
+      }
+
+      span {
+        display: block;
+        padding: 2px 0;
+      }
+
+    }
+
+    .user-data {
+      margin-top: 20px;
+      color: #FFE976;
+      font-weight: bold;
+
+      .icon {
+        color: #fff;
+        font-weight: normal;
+      }
+
+      & > div {
+        margin: 5px 0;
+      }
+    }
+  }
+
+
+  .footer {
+    padding: 10px 8px;
+    text-align: right;
+    border-top: 5px solid #fff;
+    margin-top: 10px;
+
+    span {
+      margin-right: 10px;
+      font-weight: bold;
+      color: #BABAC6;
+    }
+  }
+
+}
